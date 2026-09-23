@@ -9,7 +9,7 @@ class MainPageLocators:
     MODAL = (By.CSS_SELECTOR, "[class*='Modal_modal_opened']")
     MODAL_CLOSE = (
         By.XPATH,
-        "//*[contains(@class, 'Modal_modal_opened')]//button[contains(@class, 'Modal__close')]",
+        "//*[contains(@class, 'Modal_modal_opened')]//button[contains(@class, 'Modal_modal__close')]",
     )
     ORDER_NUMBER = (
         By.XPATH,
